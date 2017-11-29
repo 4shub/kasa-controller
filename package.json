@@ -1,0 +1,17 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node kasa-controller.js"
+  },
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "author": "Shubham Naik",
+  "license": "MIT",
+  "dependencies": {
+    "tplink-smarthome-api": "^0.20.1"
+  }
+}
